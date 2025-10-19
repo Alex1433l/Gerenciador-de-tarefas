@@ -8,20 +8,28 @@ function TaskPage() {
   const title = searchParams.get("title");
   const description = searchParams.get("description");
   return (
-    <div className="flex font-mono font-bold space-y-5 w-screen h-screen bg-slate-950 justify-center p-10">
-      <div className="flex">
+    <div className="font-mono font-bold space-y-5 w-screen h-screen bg-slate-950 justify-center p-6 py-5">
+      <div className="flex items-center mb-12">
         <button
           onClick={() => navigate(-1)}
           className="bg-yellow-300 rounded-md p-3 mr-5"
         >
           <ChevronLeft />
         </button>
-        <h1 className=" underline text-3xl text-slate-100 font-bold text-center">
+        <h1 className="underline text-3xl text-slate-100 font-bold text-center">
           Detalhes da Tarefa
         </h1>
       </div>
-      <p className="text-2xl text-yellow-500">Título: {title}</p>
-      <p className="text-2xl text-yellow-500">Descrição: {description}</p>
+      <div className="flex">
+        <p className="text-2xl text-zinc-50">
+          Título: <p className="text-2xl text-yellow-500">{title}</p>
+        </p>
+      </div>
+      <div className="flex">
+        <p className="text-2xl text-zinc-50">
+          Descrição: <p className="text-2xl text-yellow-500">{description}</p>
+        </p>
+      </div>
     </div>
   );
 }

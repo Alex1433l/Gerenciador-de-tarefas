@@ -67,9 +67,9 @@ function App() {
   return (
     <div
       //Componente PAI
-      className="flex font-mono font-bold space-y-5 w-screen h-screen bg-slate-950 justify-center p-10"
+      className="flex font-mono font-bold space-y-5 w-screen h-screen bg-slate-950 justify-center p-10 py-5"
     >
-      <div className="w-[600px] space-y-6 justify-center m-auto">
+      <div className="w-[600px] space-y-6">
         <h1 className=" underline text-3xl text-slate-100 font-bold text-center">
           Gerenciador de Tarefas 0.1
         </h1>

@@ -67,7 +67,7 @@ function App() {
   return (
     <div
       //Componente PAI
-      className="font-mono font-bold space-y-5 w-screen h-screen bg-slate-950 justify-center p-10"
+      className="flex font-mono font-bold space-y-5 w-screen h-screen bg-slate-950 justify-center p-10"
     >
       <div className="w-[600px] space-y-6 justify-center m-auto">
         <h1 className=" underline text-3xl text-slate-100 font-bold text-center">

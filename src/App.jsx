@@ -2,8 +2,8 @@ import { useEffect, useState } from "react";
 import Tasks from "./components/Tasks";
 import AddTasks from "./components/AddTasks";
 import { v4 } from "uuid";
-/* import { data } from "react-router";
- */
+//import { data } from "react-router";
+
 function App() {
   //Almazenando as Tarefas
   const [tasks, setTasks] = useState(
